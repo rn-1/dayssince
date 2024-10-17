@@ -1,6 +1,6 @@
 'use client';
 
-export default function AddButton(){
+export default function AddButton(userid){ // we actually need user id in this component to make this work
     return(
         <div className="items-center jutify-center drop-shadow-lg">
             <button onClick={() => console.log("button pressed")}>
